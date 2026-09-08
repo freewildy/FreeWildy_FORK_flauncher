@@ -1,0 +1,25 @@
+{
+  "project": {
+    "name": "FLauncher",
+    "source": "/home/server/Projects/All-Codex-Projects/Desktop/2026-08-11/de/outputs/flauncher-locked",
+    "owner": "freewildy",
+    "repository": "sauvegarde-ubuntu-flauncher",
+    "visibility": "private",
+    "status": "not_uploaded",
+    "selected_module": "/home/server/Projects/All-Codex-Projects/Desktop/2026-08-11/de/outputs/flauncher-locked/android"
+  },
+  "stats": {
+    "generated_or_tool_cache": 3,
+    "files": 124,
+    "bytes": 8578327,
+    "machine_or_credentials": 1,
+    "key_or_certificate": 1
+  },
+  "omissions": [
+    {
+      "path": "android/app/flauncher-locked-debug.keystore",
+      "reason": "key_or_certificate"
+    }
+  ],
+  "scope": "Current source files; original Git history stays local. Build caches, binaries, archives and credentials excluded."
+}
