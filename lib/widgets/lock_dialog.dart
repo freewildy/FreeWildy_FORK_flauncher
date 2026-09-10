@@ -223,10 +223,7 @@ class _PasswordDialogState extends State<_PasswordDialog> {
       Navigator.pop(context, true);
     } else {
       _passwordController.clear();
-      final remaining = 10 - lockService.failedPasswordAttempts;
-      setState(() => _error = remaining > 0
-          ? 'Mot de passe incorrect. Récupération disponible après encore $remaining échec${remaining == 1 ? '' : 's'}.'
-          : 'Mot de passe incorrect. La récupération est maintenant disponible.');
+      setState(() => _error = 'Mot de passe incorrect.');
     }
   }
 
